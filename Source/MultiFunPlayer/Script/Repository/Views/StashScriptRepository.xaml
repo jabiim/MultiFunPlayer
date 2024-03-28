@@ -23,6 +23,16 @@
                              ShowPathAndQuery="False"
                              Uri="{Binding ServerBaseUri}"/>
         </DockPanel>
+        <DockPanel Margin="0 0 0 20" LastChildFill="False">
+            <TextBlock DockPanel.Dock="Left"
+                       Margin="0 0 10 0"
+                       VerticalAlignment="Center"
+                       Text="Api Key:"/>
+            <TextBox DockPanel.Dock="Left"
+                     VerticalAlignment="Center"
+                     MinWidth="200"
+                     Text="{Binding ApiKey}"/>
+        </DockPanel>
 
         <DockPanel LastChildFill="False">
             <TextBlock DockPanel.Dock="Left"
